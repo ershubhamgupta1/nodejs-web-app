@@ -7,7 +7,7 @@ const {connectToDatabase} = require('./db');
 
 // Serve a simple response
 app.get('/', (req, res) => {
-  res.send('Hello, Azure!');
+  res.send('Hello, Azure I have updated the code!');
 });
 
 // Start the server
