@@ -36,5 +36,6 @@ Thumbs.db
 # Coverage directory used by testing tools
 coverage/
 
-# Build
+# Build output
+dist
 
