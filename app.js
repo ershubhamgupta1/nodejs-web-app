@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
   res.send('Hello, Azure I have updated the code!!!!!');
 });
 
+app.get('/user', (req, res) => {
+  res.send('Hello User');
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running on port ${port} !!!!!`);
