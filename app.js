@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/user', (req, res) => {
-  res.send('Hello User');
+  res.send('Hello User 1');
 });
 
 // Start the server
